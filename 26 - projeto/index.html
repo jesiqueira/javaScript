@@ -13,30 +13,23 @@
       <h2>Salve a sua próxima tarefa:</h2>
       <form action="" id="add-task-form">
         <input type="text" id="task-title" placeholder="O que vosê vai fazer?">
-        <button id="add-btn">add+</button>
+        <button id="add-btn">
+          <ion-icon name="add-outline"></ion-icon>
+        </button>
       </form>
     </div>
     <div id="tasks-list-container">
       <h2>Estas são as suas tarefas</h2>
       <ul id="task-list">
-        <li class="task-box">
-          <span class="task-title">teste</span>
-          <button class="bone-btn">Add+</button>
-          <button class="remove-btn">Remove</button>
-        </li>
-        <li class="task-box">
-          <span class="task-title">teste2</span>
-          <button class="bone-btn">Add+</button>
-          <button class="remove-btn">Remove</button>
-        </li>
-        <li class="task-box">
-          <span class="task-title">teste3</span>
-          <button class="bone-btn">Add+</button>
-          <button class="remove-btn">Remove</button>
+        <li class="task-box template hide">
+          <span class="task-title"></span>
+          <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+          <ion-icon class="close-btn" name="close-outline"></ion-icon>
         </li>
       </ul>
     </div>
   </div>
     <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
