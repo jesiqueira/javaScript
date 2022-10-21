@@ -1,17 +1,17 @@
 //CRIAR elemento
-var nonoParagrafo = document.createElement('p');
+var novoParagrafo = document.createElement('p');
 
 
 // criar o texto para inserir no elemento
 var texto = document.createTextNode('Este é o conteúdo do paragráfo');
 
 //inserio o texto no paragrafo
-nonoParagrafo.appendChild(texto);
-console.log(nonoParagrafo);
+novoParagrafo.appendChild(texto);
+console.log(novoParagrafo);
 
-// selecionar o body para inseriri o novo paragrafo.
+// selecionar o body para inserir o novo paragrafo.
 var body = document.querySelector('body');
-body.appendChild(nonoParagrafo);
+body.appendChild(novoParagrafo);
 
 //inserir em uma DIV.
 var container = document.getElementById('container');

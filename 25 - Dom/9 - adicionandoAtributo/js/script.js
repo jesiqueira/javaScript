@@ -16,4 +16,4 @@ subtitle.setAttribute('id', 'titulo-2');
 //remover atributo
 var lista = document.querySelector('#lista');
 
-lista.removeAttribute('id');
+// lista.removeAttribute('id');
